@@ -3,94 +3,141 @@
 <head>
   <meta charset="utf-8">
   <title>Callie's Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="reset.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
   <meta content="width=device-width, initial-scale=1" name="viewport">
 </head>
 <body>
 
   <nav>
-    <div class="logo">
-      <img src="images/final logo.png" alt="Logo">
-    </div>
-    <div class="nav bar">
-      <ul>
-        <li>
-          <a href="about.html">ABOUT</a>
-        </li>
-        <li>
-          <a href="index.html">WORK</a>
-        </li>
-        <li>
-          <a href="mailto:calliegorman4@gmail.com?subject=Hi%20Callie!">CONTACT</a>
-        </li>
-        <li>
-            <a class="btn" href="/assets/CallieGorman-Resume.pdf">RESUME</a>
-        </li>
-      </ul>
-    </div>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="logo">
+          <img src="images/final logo.png" alt="Logo">
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="about.html">ABOUT</a>
+          </li>
+          <li>
+            <a href="index.html">WORK</a>
+          </li>
+          <li>
+            <a href="mailto:calliegorman4@gmail.com?subject=Hi%20Callie!">CONTACT</a>
+          </li>
+          <li>
+            <a class="btn btn-link" href="/assets/CallieGorman-Resume.pdf" role="button">RESUME</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
   </nav>
 
   <div class="hero-home">
-    <div class= "hero intro text">
-      <h1 class= "hero line 1">Hi, I'm Callie.</h1>
-      <h2 class= "hero line 2">UX Designer with a marketer mindset.</h2>
-      <h3 class= "hero line 3">Traveler. Adventurer. GoPro Lover.</h3>
-      <h4 class= "hero line 4">Located: Rochester, NY</h4>
+    <div class="container">
+      <div class="row">
+          <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+            <h1 class= "hero line 1">Hi, I'm Callie.</h1>
+            <h2 class= "hero line 2">UX Designer with a marketer mindset.</h2>
+            <h3 class= "hero line 3">Traveler. Adventurer. GoPro Lover.</h3>
+            <h4 class= "hero line 4">Located: Rochester, NY</h4>
+          </div>
+          <div class="col-lg-4 col-md-4 hidden-sm hidden-xs">
+          </div>
+      </div>
     </div>
   </div>
 
   <div class="connected">
-    <h2>connected</h2>
-    <p>A cloud-based storage company that offers users an intuitive interface to store data, dashboard personalization and strong connection to collaborators.</p>
-    <a class="btn" href="project.html">read case study</a>
-    <a class="btn" href="https://invis.io/JDIFNQ1C34S" target="_blank">view prototype</a>
-  </div>
-
-  <div class="experience-with">
-    <h2>Experience with...</h2>
-    <h3>Design</h3>
-    <div id= "design">
-      <ul>
-        <li>User Research</li>
-        <li>Competitive Analysis</li>
-        <li>User Personas</li>
-        <li>User Stories & Flows</li>
-        <li>Sketching</li>
-        <li>Wireframing</li>
-        <li>User Testing</li>
-        <li>Web Design</li>
-        <li>Responsive Design</li>
-        <li>Logo Design</li>
-      </ul>
-    </div>
-    <div id="tools-frontend">
-      <h3>Tools</h3>
-      <ul>
-        <li>Sketch</li>
-        <li>Figma</li>
-        <li>InVision</li>
-        <li>myBalsamiq</li>
-        <li>Draw.io</li>
-      </ul>
-      <h3>Frontend</h3>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Javascript</li>
-        <li>jQuery</li>
-      </ul>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-8">
+        <h2>connected</h2>
+        <p>A cloud-based storage company that offers users an intuitive interface to store data, dashboard personalization and strong connection to collaborators.</p>
+        <a class="btn btn-link" href="project.html" role="button">read case study</a>
+        <a class="btn btn-link" href="https://invis.io/JDIFNQ1C34S" target="_blank" role="button">view prototype</a>
+      </div>
+        <div class="col-lg-8 col-md-8 col-sm-6 col-xs-4">
+        </div>
     </div>
   </div>
+</div>
 
-  <div class="say hi">
-    <h2>Say Hi!</h2>
-    <p>Drop me a line if you’re interested in working together or just want to say hello. I am always happy to chat!</p>
-    <button>contact me<a href="mailto:calliegorman4@gmail.com?subject=Hi%20Callie!"></a>
-    </button>
+<div class="experience-with">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="col-lg-4 col md-4 col-sm-12 col-xs-12">
+          <h2>Experience with...</h2>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+          <h3>Design</h3>
+          <div id= "design">
+            <ul>
+              <li>User Research</li>
+              <li>Competitive Analysis</li>
+              <li>User Personas</li>
+              <li>User Stories & Flows</li>
+              <li>Sketching</li>
+              <li>Wireframing</li>
+              <li>User Testing</li>
+              <li>Web Design</li>
+              <li>Responsive Design</li>
+              <li>Logo Design</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+          <div id="tools-frontend">
+            <h3>Tools</h3>
+            <ul>
+              <li>Sketch</li>
+              <li>Figma</li>
+              <li>InVision</li>
+              <li>myBalsamiq</li>
+              <li>Draw.io</li>
+            </ul>
+            <h3>Frontend</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+              <li>jQuery</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+</div>
 
-  <footer>
-    <img src="images/LinkedIn.png" alt="LinkedIn">
-    <img src="images/Github.png" alt="Github">
-  </footer>
+<div class="say hi">
+  <div class="row align-items-center">"
+    <div class="container">
+      <div class="col-lg-4 col-md-4 col-sm-2 hidden-xs">
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center">
+        <h2>Say Hi!</h2>
+        <p>Drop me a line if you’re interested in working together or just want to say hello. I am always happy to chat!</p>
+        <a class="btn btn-link" href="mailto:calliegorman4@gmail.com?subject=Hi%20Callie!" role="button">contact me</a>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-2 hidden-xs">
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="page-footer font-small">
+  <div class="container">
+    <a href="https://www.linkedin.com/in/calliegorman/" target="_blank">
+      <img src="images/LinkedIn.png" alt="LinkedIn">
+    </a>
+    <a href="https://github.com/calliegorman" target="_blank">
+      <img src="images/Github.png" alt="Github">
+    </a>
+  </div>
+</footer>
+
 </body>
 </html>
