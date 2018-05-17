@@ -4,190 +4,532 @@
   <body>
     <meta charset="utf-8">
     <title>Connected Case Study</title>
+
+    <!--FAVICON-->
+    <link rel="shortcut icon" type="image/png" href="images/favicon_logo.png"
+
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="fonts/glyphicons-halflings-regular.svg">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
     <meta content="width=device-width, initial-scale=1" name="viewport">
-  </body>
+  </head>
 
-  <nav>
-    <div class="logo">
-      <img src="images/final logo.png" alt="Logo">
-    </div>
-    <div class="nav bar">
-      <ul>
-        <li>
-          <a href="about.html">ABOUT</a>
-        </li>
-        <li>
-          <a href="index.html">WORK</a>
-        </li>
-        <li>
-          <a href="mailto:calliegorman4@gmail.com?subject=Hi%20Callie!">CONTACT</a>
-        </li>
-        <li>
-          <button>
-            <a href="/assets/CallieGorman-Resume.pdf">RESUME</a>
-          </button>
-        </li>
-      </ul>
-    </div>
-  </nav>
+<!-- NAV -->
 
-  <div class="content"
+<section class="container navbar">
+  <div class="row navbar">
+    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12">
+      <a href="index.html" alt="logo" class="navbar-link">
+      <img src="images/final-logo.png" alt="Logo" align="center"></a>
+    </div>
+    <div class="col-lg-4 col-md-4 hidden-sm hidden-xs">
+    </div>
+    <div class="col-lg-2 col-md-2 col-sm-2" align="center"><a href="about.html" class="navbar-link">ABOUT</a></div>
+    <div class="col-lg-2 col-md-2 col-sm-2" align="center"> <a href="mailto:calliegorman4@gmail.com?subject=Hi%20Callie!" class="navbar-link"><i class="glyphicon glyphicon-envelope"></i>CONTACT</a></div>
+    <div class="col-lg-2 col-md-2 col-sm-2" align="center"><a href="/assets/CallieGorman-Resume.pdf" class="navbar-link"><i class="glyphicon glyphicon-open-file"></i>RESUME</a></div>
+  </div>
+</section>
+
+
+<!-- HEADER -->
+
+<div class="content">
   <section class="header">
-    <img src="images/iphone.png" alt="connected mobile screen">
+    <div class="row">
+      <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+      <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10" align="center">
+        <img src="images/final-grid-1.png" class="mac img-responsive" alt="connected mobile screen" align="center">
+      </div>
+        <div class="col-lg-1 col-md-1 col-sm-10 col-xs-1"></div>
+      </div>
+    </section>
+  </div>
+
+<!-- INTRO -->
+    <section class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-3 hidden-xs"></div>
+        <h2 class="col-lg-4 col-md-4 col-sm-6 col-xs-12" align="center">connected</h2>
+        <div class="col-lg-4 col-md-4 col-sm-3 hidden-xs"></div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-3 hidden-xs"></div>
+        <p class="col-lg-6 col-md-6 col-sm-6 col-xs-12" align="center">Connected is a cloud-based storage application that offers users an intuitive interface to store data, dashboard personalization and strong connection to collaborators.</p>
+        <div class="col-lg-3 col-md-3 col-sm-3 hidden-xs"></div>
+      </div><br>
+
+      <p class="row" align="center">
+        <a class="btn btn-link" href="https://invis.io/JDIFNQ1C34S" role="button" align="center">view prototype</a>
+      </p>
+        <div class="col-lg-4 col-md-4 col-sm-4 hidden-xs"></div>
+      </div>
+    </section>
+
+<!-- ROLES -->
+
+  <section class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-4" align="center">
+        <h3>Roles</h3>
+        <ul>
+          <li class="roles">UX Design</li>
+          <li class="roles">Brand Identity</li>
+          <li class="roles">Visual Design</li>
+        </ul>
+      </div>
+      <div class="col-lg-4 col-md-4" align="center">
+        <h3>Deliverables</h3>
+        <ul>
+          <li class="roles">Logo</li>
+          <li class="roles">Style Guide</li>
+          <li class="roles">Responsive Design</li>
+        </ul>
+      </div>
+      <div class="col-lg-4 col-md-4" align="center">
+        <h3>Tools</h3>
+        <ul>
+          <li class="roles">Sketch</li>
+          <li class="roles">Draw.io</li>
+          <li class="roles">Balsamiq</li>
+          <li class="roles">Usability Hub</li>
+          <li class="roles">InVision</li>
+        </ul>
+      </div>
+  </div>
   </section>
-  <section class="intro">
-    <h2>connected</h2>
-    <p>Connected is a cloud-based storage application that offers users an intuitive interface to store data, dashboard personalization and strong connection to collaborators.</p>
-    <a class="btn" href="https://invis.io/JDIFNQ1C34S">view prototype</a>
+
+<!-- PROBLEM / SOLUTION -->
+
+<section class="container">
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-4">
+      <h3>For every problem, there is a solution</h3>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3">
+    </div>
+    <div class="col-lg-5 col-md-5 col-sm-5">
+      <p>Problem: How could I design a cloud storage solution that would be a compelling alternative to popular competitors such as Google Drive and DropBox?</p>
+      <p>Solution: An easy to use desktop and mobile application for people wanting to save and collaborate on content. The application features an intuitive and visually appealing interface, a series of collaboration options, and dashboard personalization.</p>
+    </div>
+  </div>
+</section>
+
+<!-- separator -->
+
+<section class="container">
+  <div class="row">
+    <div class="col-lg-4">
+    </div>
+    <div class="col-lg-4" align="center">
+      <img src="images/separator.png" class="separator">
+    </div>
+    <div class="col-lg-4">
+    </div>
+  </div>
+</section>
+
+<!-- UX RESEARCH -->
+
+  <section class="ux-research container">
+    <div class="row">
+      <div class="col-lg-4"></div>
+    <h2 class="col-lg-4" align="center">UX RESEARCH</h2>
+  </div>
+  <div class="col-lg-4"></div>
   </section>
-  <section class="roles">
-    <h3>Roles</h3>
-    <ul>
-      <li>UX Design</li>
-      <li>Brand Identity</li>
-      <li>Visual Design</li>
-    </ul>
-    <h3>Deliverables</h3>
-    <ul>
-      <li>Logo</li>
-      <li>Style Guide</li>
-      <li>Responsive Design</li>
-    </ul>
-    <h3>Tools</h3>
-    <ul>
-      <li>Sketch</li>
-      <li>Draw.io</li>
-      <li>Balsamiq</li>
-      <li>Usability Hub</li>
-      <li>InVision</li>
-    </ul>
+
+  <!-- COMPETITION -->
+
+  <section class="container">
+    <div class="row">
+        <h3 class="col-lg-4 col-md-4 col-sm-4">Competitive Analysis</h3>
+      <div class="col-lg-3 col-md-3 col-sm-3">
+      </div>
+      <div class="col-lg-5 col-md-5 col-sm-5">
+        <img src="images/competitors-2.png" class="img-responsive" alt="competition">
+        <p>The cloud storage market is filled with top notch competition: Google Drive, DropBox, Box, and more. The challenge was to create a new tool that could stand up to the competition. There were four potential opportunities for connected based off of where the competition seemingly fell flat:</p>
+        <ol>
+          <li>Produce a different and more inspiring design for connected’s dashboard.</li>
+          <li>Focus on branding toward the individual user vs businesses.</li>
+          <li>Provide users with different ways to acquire more storage space other than paying for it.</li>
+          <li>Create a personality that exudes a tone of voice that is friendly and has a sense of humor.</li>
+        </ol>
+      </div>
+    </div>
   </section>
-  <section class="problem-solution">
-    <h3>For every problem, there is a solution</h3>
-    <p>Problem: How could I design a cloud storage solution that would be a compelling alternative to popular competitors such as Google Drive and DropBox?</p>
-    <p>Solution: An easy to use desktop and mobile application for people wanting to save and collaborate on content. The application features an intuitive and visually appealing interface, a series of collaboration options, and dashboard personalization.</p>
+
+  <!-- separator -->
+
+  <section class="container">
+    <div class="row">
+      <div class="col-lg-4">
+      </div>
+      <div class="col-lg-4" align="center">
+        <img src="images/separator.png" class="separator">
+      </div>
+      <div class="col-lg-4">
+      </div>
+    </div>
   </section>
-  <section class="ux-research">
-    <h2>UX RESEARCH</h2>
-  </section>
-  <section class="competition">
-    <h3>Competitive Analysis</h3>
-    <img src="images/competitors.png" alt="competition">
-    <p>The cloud storage market is filled with top notch competition: Google Drive, DropBox, Box, and more. The challenge was to create a new tool that could stand up to the competition. There were four potential opportunities for connected based off of where the competition seemingly fell flat:</p>
-    <ol>
-      <li>Produce a different and more inspiring design for connected’s dashboard.</li>
-      <li>Focus on branding toward the individual user vs businesses.</li>
-      <li>Provide users with different ways to acquire more storage space other than paying for it.</li>
-      <li>Create a personality that exudes a tone of voice that is friendly and has a sense of humor.</li>
-    </ol>
-  </section>
-  <section class="user-research">
-    <h3>User Research</h3>
-    <p>Next, I conducted user research to find out what users really needed and wanted to work their best. Testing early on in the process, and ensuring a subset of the respondents were users of the competition, allowed me to position connected in a way that directly resolved major pain points.</p>
-    <h2>59%</h2>
-    <p>of respondents were Google Drive users</p>
-    <h2>50%</h2>
-    <p>chose their tool based on amount of free storage</p>
-    <h2>75%</h2>
-    <p>say it's important to have ability to organize files into folders</p>
-    <h2>85%</h2>
-    <p>say file sharing within the app is most crucial collaboration tool</p>
-    <p>Users think things could be improved, such as…
+
+<!--USER RESEARCH -->
+
+  <section class="container">
+    <div class="row">
+    <h3 class="col-lg-4 col-md-4 col-sm-4">User Research</h3>
+  <div class="col-lg-3 col-md-3 col-sm-3">
+  </div>
+    <p class="col-lg-5 col-md-5 col-sm-5">Next, I conducted user research to find out what users really needed and wanted to work their best. Testing early on in the process, and ensuring a subset of the respondents were users of the competition, allowed me to position connected in a way that directly resolved major pain points.</p>
+  </div><br>
+  <div class="row">
+    <div class="col-lg-3 col-md-3 col-sm-3" align="center">
+      <h2 class="percent">59%</h2>
+      <p>of respondents were Google Drive users</p>
+    </div>
+        <div class="col-lg-3 col-md-3 col-sm-3" align="center">
+          <h2 class="percent">50%</h2>
+          <p>chose their tool based on amount of free storage</p>
+        </div>
+            <div class="col-lg-3 col-md-3 col-sm-3" align="center">
+              <h2 class="percent">75%</h2>
+              <p>say it's important to have ability to organize files into folders</p>
+            </div>
+                <div class="col-lg-3 col-md-3 col-sm-3" align="center">
+                  <h2 class="percent">85%</h2>
+                  <p>say file sharing within the app is most crucial collaboration tool</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-7 col-md-7 col-sm-7">
+                </div>
+                <div class="col-lg-5 col-md-5 col-sm-5"><br><br>
+                  <p>Users think things could be improved, such as…
+                    <ul>
+                      <li>Even more free storage space</li>
+                      <li>Real time notifications on doc collaborations</li>
+                      <li>Visual interface</li>
+                    </ul>
+                  </p>
+                  <p>Users use their tool of choice because of…
+                    <ul>
+                      <li>Amount of free storage</li>
+                      <li>Collaboration tools available</li>
+                      <li>Ease of use</li>
+                    </ul>
+                  </p>
+                  <p>Overall, there were no clear trends in the data that suggested users were entirely unhappy with their current tool. My challenge was to then focus on important points respondents made in the survey, and build a product that met those needs in addition to what the market was lacking.</p>
+                </div>
+              </div>
+            </section>
+
+<!-- separator -->
+
+<section class="container">
+  <div class="row">
+    <div class="col-lg-4">
+    </div>
+    <div class="col-lg-4" align="center">
+      <img src="images/separator.png" class="separator">
+    </div>
+    <div class="col-lg-4">
+    </div>
+  </div>
+</section>
+
+<!-- PERSONAS -->
+
+<section class="container">
+  <div class="row">
+    <h3 class="col-lg-4 col-md-4 col-sm-4">User Persona</h3>
+    <div class="col-lg-3 col-md-3 col-sm-3">
+    </div>
+    <div class="col-lg-5 col-md-5 col-sm-5">
+      <p>Given the similarity in many responses across survey questions, it made sense to create one broad user persona to highlight the pain points and goals for the potential users.</p><br>
+      <img src="images/persona-man.png" class="img-responsive" alt="persona"><br>
       <ul>
-        <li>Even more free storage space</li>
-        <li>Real time notifications on doc collaborations</li>
-        <li>Visual interface</li>
-      </ul>
-    </p>
-    <p>Users use their tool of choice because of…
+        <li>Nathan, 28 yo</li>
+        <li>Small Business Owner in Boston, MA</li>
+      </ul><br>
+      <h4>Goals</h4>
       <ul>
-        <li>Amount of free storage</li>
-        <li>Collaboration tools available</li>
-        <li>Ease of use</li>
+        <li>Real time notifications on collaborations</li>
+        <li>Simple interface</li>
+        <li>Easy way to organize photos</li>
+      </ul><br>
+      <h4>Frustrations</h4>
+      <ul>
+        <li>Cannot always identify who is editing his documents</li>
+        <li>Hard to find old documents</li>
+        <li>Needs more storage</li>
       </ul>
+    </div>
+  </div>
+</section>
+
+<!-- separator -->
+
+<section class="container">
+  <div class="row">
+    <div class="col-lg-4">
+    </div>
+    <div class="col-lg-4" align="center">
+      <img src="images/separator.png" class="separator">
+    </div>
+    <div class="col-lg-4">
+    </div>
+  </div>
+</section>
+
+<!-- STORIES -->
+
+  <section class="container">
+    <div class="row">
+    <h3 class="col-lg-4 col-md-4 col-sm-4">Stories</h3>
+    <div class="col-lg-3 col-md-3 col-sm-3">
+    </div>
+    <p class="col-lg-5 col-md-5 col-sm-5">Because connected would be a minimum viable product, I included functionality that met all of the high and some medium priority tasks within the user stories to prioritize items in the tool for the landing page, sign up/login pop ups, dashboard, and the in dashboard document.
     </p>
-    <p>Overall, there were no clear trends in the data that suggested users were entirely unhappy with their current tool. My challenge was to then focus on important points respondents made in the survey, and build a product that met those needs in addition to what the market was lacking.</p>
+  </div>
   </section>
-  <section class="personas">
-    <h3>User Persona</h3>
-    <p>Given the similarity in many responses across survey questions, it made sense to create one broad user persona to highlight the pain points and goals for the potential users.</p>
-    <img src="images/persona man.png" alt="persona">
-    <ul>
-      <li>Nathan, 28 yo</li>
-      <li>Small Business Owner in Boston, MA</li>
-    </ul>
-    <h4>Goals</h4>
-    <ul>
-      <li>Real time notifications on collaborations</li>
-      <li>Simple interface</li>
-      <li>Easy way to organize photos</li>
-    </ul>
-    <h4>Frustrations</h4>
-    <ul>
-      <li>Cannot always identify who is editing his documents</li>
-      <li>Hard to find old documents</li>
-      <li>Needs more storage</li>
-    </ul>
+
+  <!-- separator -->
+
+  <section class="container">
+    <div class="row">
+      <div class="col-lg-4">
+      </div>
+      <div class="col-lg-4" align="center">
+        <img src="images/separator.png" class="separator">
+      </div>
+      <div class="col-lg-4">
+      </div>
+    </div>
   </section>
-  <section class="stories">
-    <h3>Stories</h3>
-    <p>Because connected would be a minimum viable product, I included functionality that met all of the high and some medium priority tasks within the user stories to prioritize items in the tool for the landing page, sign up/login pop ups, dashboard, and the in dashboard document.
-    </p>
+
+<!-- FLOWS -->
+
+<section class="container">
+  <div class="row">
+    <h3 class="col-lg-4 col-md-4 col-sm-4">Flows</h3>
+    <div class="col-lg-3 col-md-3 col-sm-3">
+    </div>
+    <p class="col-lg-5 col-md-5 col-sm-5">User flows were then created for each high priority task to ensure that the mockups included each needed process.
+      <a href="https://drive.google.com/file/d/10Nj0SMCvhEWoYkxMnB7uYqiEzi9Iwu2v/view?usp=sharing" alt="view user flows">View all.</a></p>
+    </div><br>
+    <div class="row">
+      <div class="col-lg-12" align="center">
+        <img src="images/user-flows.png" class="img-responsive" alt="user flows">
+        <p><small>User flow completed in Draw.io</small></p>
+      </div>
+    </div>
   </section>
-  <section class="flows">
-    <h3>Flows</h3>
-    <p>User flows were then created for each high priority task to ensure that the mockups included each needed process.  <a href="https://drive.google.com/file/d/10Nj0SMCvhEWoYkxMnB7uYqiEzi9Iwu2v/view?usp=sharing" alt="view user flows">View all</a></p>
-    <img src="images/user flows.png" alt="user flows">
-    <p><small>User flow completed in Draw.io</small></p>
+
+  <!-- separator -->
+
+  <section class="container">
+    <div class="row">
+      <div class="col-lg-4">
+      </div>
+      <div class="col-lg-4" align="center">
+        <img src="images/separator.png" class="separator">
+      </div>
+      <div class="col-lg-4">
+      </div>
+    </div>
   </section>
-  <section class="wireframes">
-    <h3>Wireframes</h3>
-    <p>Next, I sketched low fidelity wireframes to match each user flow, and transferred those sketches into myBalsamiq. Usability tests were conducted on these wireframes, which helped identify items needing change early on. Some of these items included:</p>
-    <ul>
-      <li>Combining “upload an item” icon and “add new” icon</li>
-      <li>Creating left-hand side navigation</li>
-      <li>Taking out option to sign up through Facebook, as all users said they would (and did in the test) use email </li>
-    </ul>
-    <img src="images/low fidelity wireframes.png" alt="low fidelity wireframes">
-    <p><small>Early low fidelity wireframes made in myBalsamiq</small></p>
+
+<!-- WIREFRAMES -->
+
+<section class="container">
+  <div class="row">
+    <h3 class="col-lg-4 col-md-4 col-sm-4">Wireframes</h3>
+    <div class="col-lg-3 col-md-3 col-sm-3">
+    </div>
+    <div class="col-lg-5 col-md-5 col-sm-5">
+      <p>Next, I sketched low fidelity wireframes to match each user flow, and transferred those sketches into myBalsamiq. Usability tests were conducted on these wireframes, which helped identify items needing change early on. Some of these items included:</p>
+      <ul>
+        <li>Combining “upload an item” icon and “add new” icon</li>
+        <li>Creating left-hand side navigation</li>
+        <li>Taking out option to sign up through Facebook, as all users said they would (and did in the test) use email</li><br>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-12" align="center">
+      <img src="images/low-fidelity-wireframes-1.png" class="img-responsive" alt="low fidelity wireframes">
+      <p><small>Early low fidelity wireframes made in myBalsamiq</small></p>
+    </div>
+  </div>
+</section>
+
+<!-- separator -->
+
+<section class="container">
+  <div class="row">
+    <div class="col-lg-4">
+    </div>
+    <div class="col-lg-4" align="center">
+      <img src="images/separator.png" class="separator">
+    </div>
+    <div class="col-lg-4">
+    </div>
+  </div>
+</section>
+
+<!-- BRANDING & VISUAL DESIGN-->
+
+  <section class="branding container">
+    <div class="row">
+      <div class="col-lg-4"></div>
+    <h2 class="col-lg-4" align="center">BRANDING & VISUAL DESIGN</h2>
+    <div class="col-lg-4"></div>
+  </div>
   </section>
-  <section class="branding">
-    <h1>BRANDING & VISUAL DESIGN</h1>
-  </section>
-  <section class="mind-mapping">
-    <h3>Mind Mapping & List Making</h3>
-    <p>Two of the most important items for connected’s brand identity was personality and simplicity. The company was meant to be approachable and have a casual, fun tone of voice. The point of portraying these characteristics was to jump on the opportunity in the market that the competitors had missed - to focus on the user’s individuality.</p>
-    <p>Two of the most important items for connected’s brand identity was personality and simplicity. The company was meant to be approachable and have a casual, fun tone of voice. The point of portraying these characteristics was to jump on the opportunity in the market that the competitors had missed - to focus on the user’s individuality.
-      I iterated on these ideas through mind mapping and listmaking.  Soon after, the headline for connected came together in my mind to cover all users needs:</p>
-      <p class= "connected motto">connected
-        to others, your unique way of working,
-        and the world of data around you.</p>
-      </section>
-      <img src="images/mind mapping.png" alt="mind mapping">
-      <p><small>Mind mapping and list making</small></p>
-  <section class="logo">
-    <h3>Logo Development</h3>
+
+
+<!-- MIND MAPPING -->
+
+<section class="container">
+  <div class="row">
+    <h3 class="col-lg-4 col-md-4 col-sm-4">Mind Mapping & List Making</h3>
+    <div class="col-lg-3 col-md-3 col-sm-3">
+    </div>
+    <div class="col-lg-5 col-md-5 col-sm-5">
+      <p>Two of the most important items for connected’s brand identity was personality and simplicity. The company was meant to be approachable and have a casual, fun tone of voice. The point of portraying these characteristics was to jump on the opportunity in the market that the competitors had missed - to focus on the user’s individuality.</p>
+      <p>Two of the most important items for connected’s brand identity was personality and simplicity. The company was meant to be approachable and have a casual, fun tone of voice. The point of portraying these characteristics was to jump on the opportunity in the market that the competitors had missed - to focus on the user’s individuality.
+        I iterated on these ideas through mind mapping and listmaking.  Soon after, the headline for connected came together in my mind to cover all users needs:</p>
+        <p class= "motto" align="center">connected<br>
+          to others, your unique way of working,<br>
+          and the world of data around you.</p>
+        </div>
+      </div><br>
+      <div class="row">
+        <div class="col-lg-12" align="center">
+          <img src="images/mind-mapping-1.png" class="img-responsive" alt="mind mapping">
+          <p><small>Mind mapping and list making</small></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- separator -->
+
+    <section class="container">
+      <div class="row">
+        <div class="col-lg-4">
+        </div>
+        <div class="col-lg-4" align="center">
+          <img src="images/separator.png" class="separator">
+        </div>
+        <div class="col-lg-4">
+        </div>
+      </div>
+    </section>
+
+<!-- LOGO -->
+
+<section class="container">
+  <div class="row">
+    <h3 class="col-lg-4 col-md-4 col-sm-4">Logo Development</h3>
+  <div class="col-lg-3 col-md-3 col-sm-3">
+  </div>
+  <div class="col-lg-5 col-md-5 col-sm-5">
     <p>While developing the logo, I thought about startup culture, and about the casual nature of using all lowercase letters and abbreviations. After several sketches, I settled on a box-like look featuring 4 letters “c” “n” “t” “d” for connected.</p>
     <p>There were several more iterations once I got into Sketch.</p>
-    <img src="images/logo sketches.png" alt="logo sketches">
-    <p><small>Early logo sketches</small></p>
-    <img src="images/logo iterations.png" alt="logo iterations">
-    <p><small>Logo iterations made in Sketch</small></p>
-  </section>
-  <section class="mockups">
-    <h3>High Fidelity Mockups</h3>
-    <p>With wireframing complete, I began producing high fidelity wireframes. During this process, I came across something of a branding identity crisis, first having settled on one logo/color palette and realizing myself (and with feedback from others) that the look was not working or matching what the brand was supposed to be all about.</p>
-    <p>It was crucial during this period to test users to gather feedback on both the user experience of the site but also the design. </p>
-    <img src="images/high fidelity mockups.png" alt="high fidelity mockups">
-    <p><small>High fidelity mockups in Sketch</small></p>
-    <img src="images/connected dashboard grid.png" alt="dashboard grid">
-    <p><small>View of dashboard home in grid layout with personalized background</small></p>
-  </section>
-  <section class="testing">
-    <h1>TESTING</h1>
-  </section>
-  <section class="usability tests">
-    <h3>Usability Tests</h3>
+  </div>
+</div><br>
+  <div class="row">
+    <div class="col-lg-12" align="center">
+      <img src="images/logo-sketches.png" class="img-responsive" alt="logo sketches">
+      <p><small>Early logo sketches</small></p>
+    </div>
+  </div><br>
+  <div class="row">
+    <div class="col-lg-12" align="center">
+      <img src="images/logo-iterations.png" class="img-responsive" alt="logo iterations">
+      <p><small>Logo iterations made in Sketch</small></p>
+    </div>
+  </div>
+</section>
+
+<!-- separator -->
+
+<section class="container">
+  <div class="row">
+    <div class="col-lg-4">
+    </div>
+    <div class="col-lg-4" align="center">
+      <img src="images/separator.png" class="separator">
+    </div>
+    <div class="col-lg-4">
+    </div>
+  </div>
+</section>
+
+<!-- MOCKUPS -->
+
+<section class="container">
+  <div class="row">
+    <h3 class="col-lg-4 col-md-4 col-sm-4">High Fidelity Mockups</h3>
+    <div class="col-lg-3 col-md-3 col-sm-3">
+    </div>
+    <div class="col-lg-5 col-md-5 col-sm-5">
+      <p>With wireframing complete, I began producing high fidelity wireframes. During this process, I came across something of a branding identity crisis, first having settled on one logo/color palette and realizing myself (and with feedback from others) that the look was not working or matching what the brand was supposed to be all about.</p>
+      <p>It was crucial during this period to test users to gather feedback on both the user experience of the site but also the design. </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-12" align="center">
+      <img src="images/high-fidelity-mockups.png" class="img-responsive" alt="high fidelity mockups">
+      <p><small>High fidelity mockups in Sketch</small></p>
+    </div>
+  </div>
+  <div class="row>">
+    <div class="col-lg-12" align="center">
+      <img src="images/dashboard-grid.png" class="img-responsive" alt="dashboard grid">
+      <p><small>View of dashboard home in grid layout with personalized background</small></p>
+    </div>
+  </div>
+</section>
+
+<!-- separator -->
+
+<section class="container">
+  <div class="row">
+    <div class="col-lg-4">
+    </div>
+    <div class="col-lg-4" align="center">
+      <img src="images/separator.png" class="separator">
+    </div>
+    <div class="col-lg-4">
+    </div>
+  </div>
+</section>
+
+<!-- TESTING -->
+
+<section class="container">
+  <div class="row">
+    <div class="col-lg-4"></div>
+    <h2 class="col-lg-4" align="center">TESTING</h2>
+    <div class="col-lg-4"></div>
+  </div>
+</section>
+
+<!-- USABILITY TESTS -->
+
+  <section class="container">
+    <div class="row">
+    <h3 class="col-lg-4 col-md-4 col-sm-4">Usability Tests</h3>
+    <div class="col-lg-3 col-md-3 col-sm-3">
+    </div>
+    <div class="col-lg-5 col-md-5 col-sm-5">
     <p>I conducted three usability tests after completing my prototype to ensure that the site was easy to navigate. I asked users to:</p>
     <ul>
       <li>Sign up for an account on the homepage</li>
@@ -201,36 +543,107 @@
       <li>The login dropdown process was the only one that differentiated from the usual modal pop up and confused users.</li>
       <li>There were sometimes too many click throughs on actions taken in the dashboard to get to the desired outcome. I took these two items into consideration and made updates.</li>
     </ul>
-    <img src="images/login before.png" alt="login process before testing">
-    <p><small>Login process before usability test</small></p>
-    <img src="images/login after.png" alt="login process after testing">
-    <p><small>Login process after usability test</small></p>
+  </div>
+</div><br>
+
+  <div class="row">
+    <div class="col-lg-6 col-md-6" align="center">
+      <img src="images/login-before.png" class="img-responsive" alt="login process before testing">
+      <p><small>Login process before usability test</small></p>
+    </div>
+        <div class="col-lg-6 col-md-6" align="center">
+          <img src="images/login-after.png" class="img-responsive" alt="login process after testing">
+          <p><small>Login process after usability test</small></p>
+        </div>
+      </div>
   </section>
-  <section class="preference tests">
-    <h3>Preference Tests</h3>
-    <p>There were a few other items specifically related to visual design that I was compelled to update after preference testing:</p>
-    <ul>
-      <li>Decreasing the size of icons on the dashboard</li>
-      <li>Ensuring most of the background image on the dashboard screen was hidden in order to make content stand out</li>
-      <li>Updating the section headers on the landing page from dark gray to blue</li>
-    </ul>
+
+
+  <!-- separator -->
+
+  <section class="container">
+    <div class="row">
+      <div class="col-lg-4">
+      </div>
+      <div class="col-lg-4" align="center">
+        <img src="images/separator.png" class="separator">
+      </div>
+      <div class="col-lg-4">
+      </div>
+    </div>
   </section>
-  <section class="conclusion">
-    <h1>CONCLUSION</h1></section>
-    <section class="takeaways">
-      <h3>Takeaways</h3>
+
+<!-- PREFERENCE TESTS -->
+
+<section class="container">
+  <div class="row">
+    <h3 class="col-lg-4 col-md-4 col-sm-4">Preference Tests</h3>
+    <div class="col-lg-3 col-md-3 col-sm-3">
+    </div>
+    <div class="col-lg-5 col-md-5 col-sm-5">
+      <p>There were a few other items specifically related to visual design that I was compelled to update after preference testing:</p>
+      <ul>
+        <li>Decreasing the size of icons on the dashboard</li>
+        <li>Ensuring most of the background image on the dashboard screen was hidden in order to make content stand out</li>
+        <li>Updating the section headers on the landing page from dark gray to blue</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- separator -->
+
+<section class="container">
+  <div class="row">
+    <div class="col-lg-4">
+    </div>
+    <div class="col-lg-4" align="center">
+      <img src="images/separator.png" class="separator">
+    </div>
+    <div class="col-lg-4">
+    </div>
+  </div>
+</section>
+
+<!-- CONCLUSION -->
+
+<section class="container">
+  <div class="row">
+    <div class="col-lg-4" align="center"></div>
+    <h2 class="col-lg-4">CONCLUSION</h2>
+    <div class="col-lg-4"></div>
+  </div>
+</section>
+
+<!-- TAKEAWAYS -->
+
+<section class="container">
+  <div class="row">
+    <h3 class="col-lg-4 col-md-4 col-sm-4">Takeaways</h3>
+    <div class="col-lg-3 col-md-3 col-sm-3"></div>
+    <div class="col-lg-5 col-md-5 col-sm-5">
       <p>In the end, connected succeeded in being an intuitive cloud storage product with unique branding personality. Users were able to easily navigate the website during late user testing, and appreciated the personalization of the dashboard. </p>
       <p>User testing was crucial in this project. Watching how users navigated the site proved invaluable and compelled me to make several changes to the user experience and also visual design of the site.
-          </p>
-      <p>This process forced me to grow as a designer. After thinking I had an almost finished product in the branding stage, I scrapped the idea and followed the path that was more aligned with the branding identity through user testing and designer feedback.
-          </p>
-    </section>
+      </p>
+      <p>This process forced me to grow as a designer. After thinking I had an almost finished product in the branding stage, I scrapped the idea and followed the path that was more aligned with the branding identity through user testing and designer feedback.</p>
+    </div>
   </div>
+</section>
 
-      <footer>
-        <img src="images/LinkedIn.png" alt="LinkedIn">
-        <img src="images/Github.png" alt="Github">
-      </footer>
+<footer class="container">
+  <div class="row footer">
+    <p class="col-lg-4 col-md-4 col-sm-4 col-xs-8">Designed & Developed by Callie Gorman</p>
+    <div class="col-lg-6 col-md-6 col-sm-4 hidden-xs"></div>
+    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+      <a href="https://www.linkedin.com/in/calliegorman/" target="_blank">
+        <img src="images/LinkedIn.png" alt="LinkedIn" class="social">
+      </a>
+      <a href="https://github.com/calliegorman" target="_blank">
+        <img src="images/Github.png" alt="Github" class="social">
+      </a>
+    </div>
+  </div>
+</footer>
 
-    </head>
-    </html>
+</body>
+</html>

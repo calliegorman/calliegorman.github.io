@@ -1,7 +1,168 @@
+/* ALL */
+
 html {
   font-size: 16px;
+  font-weight: lighter;
 }
 
-.hero-home {
-  background-image: "images/Norway.jpg";
+body {
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+}
+
+.btn.btn-link {
+  background-color: #4F7D67;
+  border-radius: 20px;
+  color: white;
+  font-size: .8rem;
+  padding:.6rem;
+}
+
+.btn.btn-link:hover {
+  background-color: #A2C4B4;
+  color: black;
+  text-decoration: none;
+}
+
+.container {
+  margin-top: 3rem;
+}
+
+.container.navbar {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+footer.container {
+  background-color: #A2C4B4;
+  height: 4rem;
+  width: 100%;
+}
+
+img.social {
+  padding: 0 .5rem 0 .5rem;
+}
+
+h2, h4 {
+  font-weight: bold;
+}
+
+h3 {
+  font-weight: bolder;
+}
+
+li {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.logo {
+  padding: 1rem;
+}
+
+.navbar-link {
+  color: #4F7D67;
+}
+
+.row.footer {
+  margin-top: 1.25rem;
+}
+
+.row.navbar {
+margin-bottom: 0;
+vertical-align: middle;
+}
+
+
+/* HOMEPAGE */
+
+.connected {
+background: url("images/connected-1.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+padding: 2rem 2rem;
+/*height: 35rem;*/
+}
+
+.container.home {
+  margin-top: 0rem;
+}
+
+.experience {
+  list-style-type: none;
+}
+
+.experience-with {
+  background-color: #4F7D67;
+  background-size: cover;
+  padding: 2rem 2rem;
+}
+
+.hero {
+  background: url("images/hero-image-3.png");
+  background-position: right;
+  height: 45rem;
+}
+
+.hi {
+  font-family: "Arvo", serif;
+  margin-top: 7rem;
+}
+
+.homepage {
+  color: white;
+}
+
+row.home {
+  padding-top: 3rem;
+}
+
+.say-hi {
+  color: black;
+}
+
+.work {
+  margin-top: 20rem;
+}
+
+/* ABOUT PAGE */
+
+.about-image {
+  background: url("images/about-image.jpg");
+  height: 35rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img.img-responsive.about {
+  border-radius: 15px;
+}
+
+/* PROJECT */
+
+.separator {
+  border-radius: 5px;
+}
+
+.header {
+  height: 35rem;
+  background: url("images/connected-1.png");
+  height: 35rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img.mac.img-responsive {
+  margin-top: 15rem;
+}
+
+.roles {
+  list-style-type: none;
+}
+
+.percent {
+  color: #4F7D67;
 }
