@@ -29,8 +29,10 @@ body {
 }
 
 .container.navbar {
-  margin-top: 1rem;
-  margin-bottom: 0;
+  background-color: #FFFFFF;
+  height: auto;
+  margin: 0;
+  width: 100%;
 }
 
 footer.container {
@@ -56,12 +58,10 @@ li {
   list-style-position: inside;
 }
 
-.logo {
-  padding: 1rem;
-}
-
 .navbar-link {
   color: #4F7D67;
+  display: flex;
+  margin-top: 1.5rem;
 }
 
 .row.footer {
@@ -72,7 +72,6 @@ li {
 margin-bottom: 0;
 vertical-align: middle;
 }
-
 
 /* HOMEPAGE */
 
@@ -107,6 +106,7 @@ padding: 2rem 2rem;
 
 .hi {
   font-family: "Arvo", serif;
+  font-size: 3rem;
   margin-top: 7rem;
 }
 
