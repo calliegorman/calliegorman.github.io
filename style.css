@@ -1,4 +1,4 @@
-/* ALL */
+/* ALL PAGES */
 
 html {
   font-size: 16px;
@@ -24,11 +24,6 @@ body {
   text-decoration: none;
 }
 
-
-img.social {
-  padding: 0 .5rem 0 .5rem;
-}
-
 h2, h3, h4 {
   font-weight: bold;
 }
@@ -37,34 +32,56 @@ h2, h3 {
   margin-top: 0;
 }
 
+img.social {
+  padding: 0 .5rem 0 .5rem;
+}
+
 li {
   list-style-type: disc;
   list-style-position: inside;
 }
 
-/*navbar*/
-.navbar {
-  margin-bottom: 0;
-  margin-left: 2rem;
-  margin-right: 2rem;
+
+  /*navbar*/
+
+.navbar-default {
+  background-color: transparent;
+  border: none;
 }
 
 a.navbar-brand {
-  margin: 1rem;
+  margin: .5rem;
   padding: 0;
 }
 
 ul.nav {
-  padding-top: 1.5rem;
+  padding-top: 1.2rem;
 }
 
 .nav>li>a:focus, .nav>li>a:hover {
-        background-color: #A2C4B4;
-        border-radius: 30px;
-        text-decoration: none;
-  }
+  background-color: #A2C4B4;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+.navbar-nav {
+  float: right;
+}
+
+.navbar-toggle {
+  margin-top: 1.5rem;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.navbar-brand {
+  height: auto;
+}
 
 /*footer*/
+
 .container.footer {
   margin-top: 2rem;
 }
@@ -87,7 +104,6 @@ background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 padding: 2rem 2rem;
-/*height: 35rem;*/
 }
 
 .container.home {
@@ -136,10 +152,10 @@ row.home {
 
 .about-image {
   background: url("images/about-image.jpg");
-  height: 35rem;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 35rem;
 }
 
 .container.about {
@@ -161,11 +177,11 @@ h2.connected-title {
 }
 
 .header {
-  height: 30rem;
   background: url("images/connected-1.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 30rem;
 }
 
 img.mac.img-responsive {
