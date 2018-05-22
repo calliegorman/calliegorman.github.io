@@ -7,25 +7,29 @@ html {
 
 body {
   font-family: "Montserrat", sans-serif;
+  margin: 0;
+  overflow-x: hidden;
   width: 100%;
 }
 
 .btn.btn-link {
-  background-color: #4F7D67;
+  background-color: #F5D284;
   border-radius: 20px;
-  color: white;
+  color: black;
   font-size: .8rem;
-  padding:.6rem;
+  font-weight: bold;
+  padding:.5rem 1rem .5rem 1rem;
 }
 
 .btn.btn-link:hover {
-  background-color: #A2C4B4;
+  background-color: #F8E6BE;
   color: black;
   text-decoration: none;
 }
 
 h2, h3, h4 {
   font-weight: bold;
+  line-height: normal;
 }
 
 h2, h3 {
@@ -40,7 +44,6 @@ li {
   list-style-type: disc;
   list-style-position: inside;
 }
-
 
   /*navbar*/
 
@@ -84,6 +87,7 @@ ul.nav {
 
 .container.footer {
   margin-top: 2rem;
+  color: #4F7D67;
 }
 
 footer.container {
@@ -94,6 +98,10 @@ footer.container {
 
 .row.footer {
   margin-top: 1.25rem;
+}
+
+.social-icons {
+  align-content: center;
 }
 
 /* HOMEPAGE */
@@ -128,12 +136,17 @@ padding: 2rem 2rem;
 
 .hi {
   font-family: "Arvo", serif;
-  font-size: 3rem;
+  font-size: 3.5rem;
   margin-top: 7rem;
 }
 
 .homepage {
   color: white;
+}
+
+.homepage-header {
+  font-family: "Arvo", serif;
+  font-weight: normal;
 }
 
 row.home {
@@ -158,12 +171,19 @@ row.home {
   height: 35rem;
 }
 
+.about-title {
+  font-family: "Arvo", serif;
+  font-weight: normal;
+}
+
+
 .container.about {
   margin-top: 3rem;
 }
 
 img.img-responsive.about {
   border-radius: 15px;
+  margin-bottom: .5rem;
 }
 
 /* PROJECT */
@@ -194,6 +214,8 @@ img.mac.img-responsive {
 
 .percent {
   color: #4F7D67;
+  font-size: 1.8rem;
+  font-weight: bold;
 }
 
 .separator {
