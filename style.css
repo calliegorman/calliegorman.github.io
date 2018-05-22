@@ -17,7 +17,7 @@ body {
   border-radius: 20px;
   color: black;
   font-size: .8rem;
-  font-weight: bold;
+  font-weight: normal;
   padding:.5rem 1rem .5rem 1rem;
 }
 
@@ -28,7 +28,7 @@ body {
 }
 
 h2, h3, h4 {
-  font-weight: bold;
+  font-weight: bolder;
   line-height: normal;
 }
 
