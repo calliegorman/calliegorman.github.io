@@ -109,7 +109,7 @@ img.social {
 
 .connected {
 background: url("images/connected-1.png");
-background-position: center;
+background-position: left;
 background-repeat: no-repeat;
 background-size: cover;
 padding: 2rem 2rem;
@@ -175,11 +175,12 @@ row.home {
 .about-title {
   font-family: "Arvo", serif;
   font-weight: normal;
+  margin-bottom: 0;
 }
 
 
 .container.about {
-  margin-top: 3rem;
+  margin-top: 1.5rem;
 }
 
 img.img-responsive.about {
