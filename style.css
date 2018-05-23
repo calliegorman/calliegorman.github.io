@@ -129,6 +129,12 @@ padding: 2rem 2rem;
   padding: 2rem 2rem;
 }
 
+.row.location {
+  font-size: .7rem;
+  opacity: .7;
+  text-align: center;
+}
+
 .hero {
   background: url("images/hero-image-3.png");
   background-position: right;
