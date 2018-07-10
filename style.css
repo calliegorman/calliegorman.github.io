@@ -71,12 +71,6 @@ ul.nav {
   padding-top: 1.2rem;
 }
 
-/*.nav>li>a:focus .nav>li>a:hover {
-  background-color: #A2C4B4;
-  border-radius: 30px;
-  text-decoration: none;
-}*/
-
 .navbar-nav {
   float: right;
 }
@@ -92,6 +86,7 @@ ul.nav {
 .navbar-brand {
   height: auto;
 }
+
 
 /*footer*/
 
@@ -115,6 +110,7 @@ footer.container.footer {
 img.social {
   margin-bottom: 1rem;
 }
+
 
 /* HOMEPAGE */
 
@@ -176,6 +172,14 @@ row.home {
   padding-bottom: 2rem;
 }
 
+.vicarious-homepage {
+background: url("images/vicarious-img/airplane.png");
+background-position: top left;
+background-repeat: no-repeat;
+background-size: cover;
+padding: 2rem 2rem;
+}
+
 .work {
   margin-top: 15rem;
 }
@@ -216,7 +220,7 @@ img.img-responsive.about {
   padding-bottom: 2rem;
 }
 
-/* PROJECT */
+/* CONNECTED */
 
 .connected-shape {
   transform: scale(.4,.4);
@@ -285,4 +289,83 @@ img.img-responsive.high-fidelity {
   font-family: "Arvo", sans-serif;
   font-size: 1.5rem;
   color: #F5BF46;
+}
+
+/* VICARIOUS */
+
+.btn.btn-link.vicarious {
+  background-color: #FF6E5F;
+  border-radius: 20px;
+  color: black;
+  font-weight: normal;
+  padding:.5rem 1rem .5rem 1rem;
+}
+
+.btn.btn-link.vicarious:hover {
+  background-color: #FFB1A9;
+  color: black;
+  text-decoration: none;
+}
+
+.competition-first-line {
+  vertical-align: baseline;
+}
+
+.container.vicarious {
+  margin-top: 3rem;
+}
+
+.img-responsive.competition {
+  margin-bottom: 2rem;
+}
+
+.img-responsive.vicarious {
+  margin-top: 1rem;
+}
+
+.img-responsive.vicarious.border{
+  border: solid 1px #2CA6D6;
+}
+
+.num {
+  color:#FF6E5F;
+  font-weight: bold;
+}
+
+.percent.user {
+  color: #FF6E5F;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.percent.user.update {
+  color: #38E1F1;
+}
+
+.separator-vicarious {
+  border-radius: 5px;
+}
+
+.vicarious-captions {
+  font-size: .8rem;
+  margin-top: .8rem;
+}
+
+.vicarious-header {
+  background: url("images/vicarious-img/vicarious-header-background.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 35rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .vicarious-header {
+    height: 20rem;
+  }
+}
+
+.vicarious-titles {
+  color: #FF6E5F;
+  font-weight: 600;
 }
