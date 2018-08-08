@@ -1,13 +1,14 @@
 /* ALL PAGES */
 
 html {
-  font-weight: lighter;
+  font-weight: 100;
   font-size: 16px;
 }
 
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
+  font-weight: lighter;
   margin: 0;
   overflow-x: hidden;
   width: 100%;
@@ -18,7 +19,7 @@ body {
   background-color: #F5D284;
   border-radius: 20px;
   color: black;
-  font-weight: normal;
+  font-weight: bold;
   padding:.5rem 1rem .5rem 1rem;
 }
 
@@ -55,16 +56,29 @@ p.img-captions {
   margin-top: .8rem;
 }
 
-  /*navbar*/
-
-.navbar-default {
-  background-color: transparent;
-  border: none;
-}
+/*navbar*/
 
 a.navbar-brand {
   margin: .5rem;
   padding: 0;
+}
+
+a.nav-links:hover {
+  border-bottom: 3px solid #F5D284;
+}
+
+h5 {
+  margin-top: 1.5rem;
+}
+
+.navbar-nav>li>a {
+  padding-bottom: 0;
+  margin-bottom: 1rem;
+}
+
+.navbar-default {
+  background-color: transparent;
+  border: none;
 }
 
 ul.nav {
@@ -93,23 +107,26 @@ ul.nav {
 
 .container.footer {
   margin-top: 2rem;
-  color: #4F7D67;
+  color: #000000;
 }
 
 footer.container.footer {
-  background-color: #A2C4B4;
-  height: auto;
+  height: 7rem;
   margin-top: 0;
   overflow-y: hidden;
   width: 100%;
+}
+
+.footer-text {
+  font-size: .7rem;
 }
 
 .row.footer {
   padding-top: 1rem;
 }
 
-img.social {
-  margin-bottom: 1rem;
+.social-icon {
+  margin-right: 1.5rem;
 }
 
 
@@ -128,11 +145,18 @@ padding: 2rem 2rem;
 }
 
 .experience {
+  color: #4a4a4a;
+  font-weight: 100;
   list-style-type: none;
 }
 
+.experience-title {
+  color: #000000;
+  font-weight: 700;
+}
+
 .experience-with {
-  background-color: #4F7D67;
+  background-color: none;
   background-size: cover;
   padding: 2rem 2rem;
 }
@@ -146,11 +170,11 @@ padding: 2rem 2rem;
 .hero {
   background: url("images/hero-image-3.png");
   background-position: top right;
-  min-height: 100%;
+  min-height: 40rem;
 }
 
 .hi {
-  font-family: "Arvo", serif;
+  font-family: "Raleway", serif;
   font-size: 3.5rem;
   margin-top: 7rem;
 }
@@ -160,8 +184,8 @@ padding: 2rem 2rem;
 }
 
 .homepage-header {
-  font-family: "Arvo", serif;
-  font-weight: normal;
+  font-family: "Raleway", serif;
+  font-weight: bold;
 }
 
 row.home {
@@ -169,8 +193,15 @@ row.home {
 }
 
 .say-hi {
-  color: black;
-  padding-bottom: 2rem;
+  background: url("images/footer-img.png");
+  background-position: bottom right;
+  color: #FFFFFF;
+  padding-bottom: 4rem;
+  padding-top: 2rem;
+}
+
+.say-hi-text {
+  font-weight: lighter;
 }
 
 .vicarious-homepage {
@@ -187,38 +218,47 @@ padding: 2rem 2rem;
 
 /* ABOUT PAGE */
 
+a.underline-about:hover {
+  border-bottom: 3px solid #F5D284;
+}
+
+a.underline-about:link {
+  color: black;
+  text-decoration: none;
+}
+
+.about-description {
+  line-height: 1.8;
+}
+
 .about-image {
   background: url("images/about-image.jpg");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 35rem;
+  height: 33rem;
 }
 
 .about-title {
-  font-family: "Arvo", serif;
+  font-family: "Raleway", serif;
   font-weight: normal;
   margin-bottom: 0;
 }
 
+.bold-opener {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
 
 .container.about {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
 
-.ibm-header {
-  margin-top: 0;
-}
-
-img.img-responsive.about {
-  border-radius: 15px;
-  margin-bottom: .5rem;
-}
-
-.say-hi-about {
-  background-color: #FFFFFF;
-  padding-bottom: 2rem;
+.small {
+  color: #6c6c6c;
+  font-size: .7rem;
+  margin-top: .5rem;
 }
 
 /* CONNECTED */
@@ -281,13 +321,13 @@ img.img-responsive.high-fidelity {
 }
 
 .stand-out {
-  font-family: "Arvo", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 1.5rem;
   color: #4F7D67;
 }
 
 .motto {
-  font-family: "Arvo", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 1.5rem;
   color: #F5BF46;
 }
