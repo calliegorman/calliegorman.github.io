@@ -561,6 +561,10 @@ a.case-study-links.white {
   padding-top: 3rem;
 }
 
+.image-text.last-wf {
+  padding-bottom: 1rem;
+}
+
 .image-text.top.brand {
   margin-top: 8rem;
   padding-bottom: 1rem;
@@ -616,6 +620,8 @@ a.case-study-links.white {
 .vicarious-titles {
   color: #989898;
   font-weight: 400;
+  padding-top: 2rem;
+  border-top: solid 1px gray
 }
 
 @media only screen and (max-width: 768px) {
