@@ -48,7 +48,7 @@ li {
 }
 
 p {
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 p.img-captions {
@@ -261,6 +261,23 @@ a.underline-about:link {
   margin-top: .5rem;
 }
 
+/* CASE STUDIES */
+
+a.case-study-links {
+  text-decoration: none;
+}
+
+a.case-study-links:hover {
+    border-bottom: 3px solid #F5D284;
+}
+
+.roles {
+  line-height: 1.7;
+  list-style-type: none;
+
+}
+
+
 /* CONNECTED */
 
 .connected-shape {
@@ -277,10 +294,6 @@ a.underline-about:link {
   background-repeat: no-repeat;
   background-size: cover;
   height: 30rem;
-}
-
-img.img-responsive {
-  border-radius: 1rem;
 }
 
 img.img-responsive.wireframes {
@@ -300,10 +313,6 @@ img.img-responsive.high-fidelity {
 
 .last-paragraph {
   margin-bottom: 4rem;
-}
-
-.roles {
-  list-style-type: none;
 }
 
 .percent {
@@ -339,7 +348,7 @@ img.img-responsive.high-fidelity {
   border-radius: 20px;
   color: black;
   font-weight: normal;
-  padding:.5rem 1rem .5rem 1rem;
+  padding:.5rem 2rem .5rem 2rem;
 }
 
 .btn.btn-link.vicarious:hover {
@@ -348,12 +357,137 @@ img.img-responsive.high-fidelity {
   text-decoration: none;
 }
 
+a.case-study-links.white {
+  color: white;
+  font-weight: 900;
+}
+
+.col-lg-4.col-md-4.competition {
+  padding-left: 2rem;
+}
+
+.color-box {
+  height: 5rem;
+  margin-top: 2rem;
+  width: 5rem;
+}
+
+.color-box.one {
+  background-color: #5AD3EB;
+}
+
+.color-box.two {
+  background-color: #13ABC7;
+}
+
+.color-box.three {
+  background-color: #84E1F2;
+}
+
+.col-lg-2.arrow {
+  padding-top: 12rem;
+}
+
+.col-xs-12.arrow {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.color-box.four {
+  background-color: #FF6E5F;
+}
+
 .competition-first-line {
   vertical-align: baseline;
 }
 
 .container.vicarious {
   margin-top: 3rem;
+  width: 100%;
+}
+
+.container.vicarious.competition-statement {
+  background-color: #F8F8F8;
+  font-weight: 700;
+  padding: 2rem 2rem;
+  width: 100%;
+}
+
+.container.vicarious.grayscale {
+    background: linear-gradient(to right,#E0DEDE, #FFFFFF);
+    margin-top: 0;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+    width: 100%;
+}
+
+.container.vicarious.problem-solution {
+  background-image: url("images/vicarious-img/airplane.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  margin-top: 0;
+  width: 100%;
+}
+
+.container.vicarious.branding-conclusion {
+  background-image: url("images/vicarious-img/plane.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  margin-top: 3rem;
+  width: 100%;
+}
+
+.container.vicarious.competition-conclusion {
+  background-image: url("images/vicarious-img/map-car.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  margin-top: 3rem;
+  width: 100%;
+}
+
+.container.vicarious.frames {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding: 0;
+}
+
+.container.vicarious.intro, .container.vicarious.logo {
+  margin-bottom: 3rem;
+}
+
+.container.vicarious.user-conclusion {
+  background-image: url("images/vicarious-img/reine.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  margin-top: 0;
+  width: 100%;
+}
+
+.container.vicarious.wireframe-conclusion {
+  background-image: url("images/vicarious-img/sunrise.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  margin-top: 0;
+  width: 100%;
+}
+
+.container.vicarious.title {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.digital-wf {
+  border: solid 1px #D8D8D8;
 }
 
 .img-responsive.competition {
@@ -369,7 +503,12 @@ img.img-responsive.high-fidelity {
 }
 
 .img-responsive.vicarious.border{
-  border: solid 1px #CACACA;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 3rem;
+}
+
+.img-responsive.header-image {
+  margin-top: 1rem;
 }
 
 .last-paragraph {
@@ -383,20 +522,66 @@ img.img-responsive.high-fidelity {
 
 .percent.user {
   color: #FF6E5F;
-  font-size: 2rem;
+  font-size: 1.2rem;
   font-weight: bold;
+  margin-bottom: .2rem;
+  margin-top: 0;
 }
 
-.percent.user.update {
-  color: #38E1F1;
+.percent.user.blue {
+  color: #31BDCB;
 }
 
-.row.roles {
-  margin-bottom: 5rem;
+.problem-solution-box {
+  align-self: center;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  height: auto;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  padding: 1.5rem;
+  opacity: .7;
+}
+
+.problem-solution-header {
+  font-weight: 700;
+  opacity: 1;
+}
+
+.problem-solution-text {
+  opacity: 1;
+}
+
+.image-text {
+  color: #FFFFFF;
+  font-family: "Raleway", sans-serif;
+}
+
+.image-text.top {
+  padding-top: 3rem;
+}
+
+.image-text.top.brand {
+  margin-top: 8rem;
+  padding-bottom: 1rem;
+}
+
+.row.blue {
+  padding-bottom: 2rem;
 }
 
 .separator-vicarious {
   border-radius: 5px;
+}
+
+.small-image-text {
+  color: #FFFFFF;
+  font-size: .8rem;
+  padding-bottom: 1rem;
+}
+
+.sub-header {
+  font-size: 1.2rem;
 }
 
 .standout {
@@ -410,11 +595,11 @@ img.img-responsive.high-fidelity {
 }
 
 .vicarious-header {
-  background: url("images/vicarious-img/vicarious-header-background.png");
+  background: linear-gradient(to right,#FFFFFF, #E0DEDE);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 35rem;
+  height: 30rem;
 }
 
 @media only screen and (max-width: 768px) {
@@ -429,6 +614,12 @@ img.img-responsive.high-fidelity {
 }
 
 .vicarious-titles {
-  color: #4A4A4A;
-  font-weight: 600;
+  color: #989898;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 768px) {
+  .small {
+    max-width: 70%;
+  }
 }
