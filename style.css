@@ -20,6 +20,7 @@ body {
   border-radius: 20px;
   color: black;
   font-weight: bold;
+  margin-bottom: 1rem;
   padding:.5rem 1rem .5rem 1rem;
 }
 
@@ -277,11 +278,51 @@ a.case-study-links:hover {
 
 }
 
+.titles {
+  color: #989898;
+  font-weight: 400;
+  padding-top: 2rem;
+  border-top: solid 1px gray
+}
+
+
 
 /* CONNECTED */
 
 .connected-shape {
   transform: scale(.4,.4);
+}
+
+.connected-title {
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+
+.container.connected-project.white {
+  padding-top: 2rem;
+  width: 100%;
+}
+
+.container.connected-project.competitive-conclusion {
+  background: url("images/dots.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  padding-bottom: 2rem;
+  width: 100%;
+}
+
+.container.connected-project.gray {
+  background-color: #EFEFEF;
+  margin-top: 3rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  width: 100%;
+}
+
+.container.connected-project.gray.no-top {
+  margin: 0;
 }
 
 .container.project {
@@ -303,7 +344,7 @@ img.img-responsive.wireframes {
 img.img-responsive.grid {
   border-radius: 1rem;
   box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
-  margin-top: 2rem;
+  margin-top: 1rem;
   transform: scale(.7,.7);
 }
 
@@ -311,14 +352,24 @@ img.img-responsive.high-fidelity {
   box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
 }
 
-.last-paragraph {
-  margin-bottom: 4rem;
+p.last-paragraph {
+  margin-bottom: 2rem;
 }
 
 .percent {
   color: #4F7D67;
   font-size: 1.8rem;
   font-weight: bold;
+}
+
+.problem-solution-box.cnt-project {
+  align-self: center;
+      background-color: #FFFFFF;
+      border-radius: 15px;
+      height: auto;
+      margin-bottom: 1rem;
+      margin-top: 1rem;
+      padding: 1.5rem;
 }
 
 .row.connected-shape {
@@ -352,9 +403,21 @@ img.img-responsive.high-fidelity {
 }
 
 .btn.btn-link.vicarious:hover {
-  background-color: #FFB1A9;
+  background-color: #FFB0A8;
   color: black;
   text-decoration: none;
+}
+
+.btn.btn-link.vicarious.landing {
+  background-color: #77E2F1;
+  border-radius: 20px;
+  color: black;
+  font-weight: normal;
+  padding:.5rem 2rem .5rem 2rem;
+}
+
+.btn.btn-link.vicarious.landing:hover {
+  background-color: #A4FAFE;
 }
 
 a.case-study-links.white {
@@ -615,13 +678,6 @@ a.case-study-links.white {
 .vicarious-title {
   font-size: 2.8rem;
   font-weight: bold;
-}
-
-.vicarious-titles {
-  color: #989898;
-  font-weight: 400;
-  padding-top: 2rem;
-  border-top: solid 1px gray
 }
 
 @media only screen and (max-width: 768px) {
