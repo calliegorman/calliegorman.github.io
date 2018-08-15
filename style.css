@@ -14,7 +14,6 @@ body {
   width: 100%;
 }
 
-
 .btn.btn-link {
   background-color: #F5D284;
   border-radius: 20px;
@@ -82,10 +81,6 @@ h5 {
   border: none;
 }
 
-ul.nav {
-  padding-top: 1.2rem;
-}
-
 .navbar-nav {
   float: right;
   font-weight: bold;
@@ -103,12 +98,21 @@ ul.nav {
   height: auto;
 }
 
+ul.nav {
+  padding-top: 1.2rem;
+}
+
+
 
 /*footer*/
 
 .container.footer {
   margin-top: 2rem;
   color: #000000;
+}
+
+.fab {
+  margin-right: 1.5rem;
 }
 
 footer.container.footer {
@@ -124,10 +128,6 @@ footer.container.footer {
 
 .row.footer {
   padding-top: 1rem;
-}
-
-.social-icon {
-  margin-right: 1.5rem;
 }
 
 
@@ -275,7 +275,6 @@ a.case-study-links:hover {
 .roles {
   line-height: 1.7;
   list-style-type: none;
-
 }
 
 .titles {
@@ -284,7 +283,6 @@ a.case-study-links:hover {
   padding-top: 2rem;
   border-top: solid 1px gray
 }
-
 
 
 /* CONNECTED */
@@ -352,6 +350,12 @@ img.img-responsive.high-fidelity {
   box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
 }
 
+.motto {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5rem;
+  color: #F5BF46;
+}
+
 p.last-paragraph {
   margin-bottom: 2rem;
 }
@@ -364,12 +368,12 @@ p.last-paragraph {
 
 .problem-solution-box.cnt-project {
   align-self: center;
-      background-color: #FFFFFF;
-      border-radius: 15px;
-      height: auto;
-      margin-bottom: 1rem;
-      margin-top: 1rem;
-      padding: 1.5rem;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  height: auto;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  padding: 1.5rem;
 }
 
 .row.connected-shape {
@@ -386,13 +390,13 @@ p.last-paragraph {
   color: #4F7D67;
 }
 
-.motto {
-  font-family: "Raleway", sans-serif;
-  font-size: 1.5rem;
-  color: #F5BF46;
-}
 
 /* VICARIOUS */
+
+a.case-study-links.white {
+  color: white;
+  font-weight: 900;
+}
 
 .btn.btn-link.vicarious {
   background-color: #FF6E5F;
@@ -418,11 +422,6 @@ p.last-paragraph {
 
 .btn.btn-link.vicarious.landing:hover {
   background-color: #A4FAFE;
-}
-
-a.case-study-links.white {
-  color: white;
-  font-weight: 900;
 }
 
 .col-lg-4.col-md-4.competition {
@@ -583,6 +582,24 @@ a.case-study-links.white {
   font-weight: bold;
 }
 
+.image-text {
+  color: #FFFFFF;
+  font-family: "Raleway", sans-serif;
+}
+
+.image-text.top {
+  padding-top: 3rem;
+}
+
+.image-text.last-wf {
+  padding-bottom: 1rem;
+}
+
+.image-text.top.brand {
+  margin-top: 8rem;
+  padding-bottom: 1rem;
+}
+
 .percent.user {
   color: #FF6E5F;
   font-size: 1.2rem;
@@ -613,24 +630,6 @@ a.case-study-links.white {
 
 .problem-solution-text {
   opacity: 1;
-}
-
-.image-text {
-  color: #FFFFFF;
-  font-family: "Raleway", sans-serif;
-}
-
-.image-text.top {
-  padding-top: 3rem;
-}
-
-.image-text.last-wf {
-  padding-bottom: 1rem;
-}
-
-.image-text.top.brand {
-  margin-top: 8rem;
-  padding-bottom: 1rem;
 }
 
 .row.blue {
