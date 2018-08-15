@@ -163,11 +163,12 @@ padding: 2rem 2rem;
 }
 
 .facebook {
-  background: url("images/fb-img/facebook-background.png");
+  background: url("images/fb-img/fb-background.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 2rem 2rem;
+  width: 100%;
 }
 
 .row.location {
