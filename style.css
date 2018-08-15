@@ -390,12 +390,16 @@ p.last-paragraph {
   color: #4F7D67;
 }
 
-
 /* VICARIOUS */
 
 a.case-study-links.white {
   color: white;
   font-weight: 900;
+}
+
+.branding-conclusion {
+  background-image: url("images/vicarious-img/plane.png");
+  background-position: center;
 }
 
 .btn.btn-link.vicarious {
@@ -459,19 +463,33 @@ a.case-study-links.white {
   background-color: #FF6E5F;
 }
 
+.competition-conclusion {
+  background-image: url("images/vicarious-img/map-car.png");
+  background-position: bottom;
+  margin-top: 3rem;
+}
+
 .competition-first-line {
   vertical-align: baseline;
 }
 
-.container.vicarious {
+.competition-statement {
+  background-color: #F8F8F8;
+  font-weight: 700;
+  padding: 2rem 2rem;
+  width: 100%;
+}
+
+.conclusion {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
   margin-top: 3rem;
   width: 100%;
 }
 
-.container.vicarious.competition-statement {
-  background-color: #F8F8F8;
-  font-weight: 700;
-  padding: 2rem 2rem;
+.container.vicarious {
+  margin-top: 3rem;
   width: 100%;
 }
 
@@ -483,64 +501,9 @@ a.case-study-links.white {
     width: 100%;
 }
 
-.container.vicarious.problem-solution {
-  background-image: url("images/vicarious-img/airplane.png");
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: auto;
-  margin-top: 0;
-  width: 100%;
-}
-
-.container.vicarious.branding-conclusion {
-  background-image: url("images/vicarious-img/plane.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: auto;
-  margin-top: 3rem;
-  width: 100%;
-}
-
-.container.vicarious.competition-conclusion {
-  background-image: url("images/vicarious-img/map-car.png");
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: auto;
-  margin-top: 3rem;
-  width: 100%;
-}
-
-.container.vicarious.frames {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  padding: 0;
-}
-
-.container.vicarious.intro, .container.vicarious.logo {
-  margin-bottom: 3rem;
-}
-
 .container.vicarious.user-conclusion {
   background-image: url("images/vicarious-img/reine.png");
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: auto;
-  margin-top: 0;
-  width: 100%;
-}
-
-.container.vicarious.wireframe-conclusion {
-  background-image: url("images/vicarious-img/sunrise.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: auto;
-  margin-top: 0;
-  width: 100%;
 }
 
 .container.vicarious.title {
@@ -550,6 +513,12 @@ a.case-study-links.white {
 
 .digital-wf {
   border: solid 1px #D8D8D8;
+}
+
+.frames {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding: 0;
 }
 
 .img-responsive.competition {
@@ -570,7 +539,11 @@ a.case-study-links.white {
 }
 
 .img-responsive.header-image {
-  margin-top: 1rem;
+  margin-top: 2rem;
+}
+
+.intro, .logo, .pp {
+  margin-bottom: 3rem;
 }
 
 .last-paragraph {
@@ -610,6 +583,11 @@ a.case-study-links.white {
 
 .percent.user.blue {
   color: #31BDCB;
+}
+
+.problem-solution {
+  background-image: url("images/vicarious-img/airplane.png");
+  background-position: top;
 }
 
 .problem-solution-box {
@@ -660,18 +638,13 @@ a.case-study-links.white {
   margin-bottom: 2rem;
 }
 
-.vicarious-header {
+.vicarious-header.col-lg-10.col-md-10.col-sm-10 {
   background: linear-gradient(to right,#FFFFFF, #E0DEDE);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 30rem;
-}
-
-@media only screen and (max-width: 768px) {
-  .vicarious-header {
-    height: 20rem;
-  }
+  height: auto;
+  width: 100%;
 }
 
 .vicarious-title {
@@ -683,4 +656,9 @@ a.case-study-links.white {
   .small {
     max-width: 70%;
   }
+}
+
+.wireframe-conclusion {
+  background-image: url("images/vicarious-img/sunrise.png");
+  background-position: center;
 }
