@@ -162,6 +162,14 @@ padding: 2rem 2rem;
   padding: 2rem 2rem;
 }
 
+.facebook {
+  background: url("images/fb-img/facebook-background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2rem 2rem;
+}
+
 .row.location {
   font-size: .7rem;
   opacity: .7;
@@ -390,6 +398,87 @@ p.last-paragraph {
   color: #4F7D67;
 }
 
+
+
+/* FACEBOOK */
+
+.btn.btn-link.fb-blue {
+  background-color: #3B5998;
+  color: white;
+}
+
+.btn.btn-link.fb-blue:hover {
+  background-color: #628FEF;
+}
+
+.container.facebook-project.gray {
+  background-color: #EFEFEF;
+  margin-top: 3rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  width: 100%;
+}
+
+.container.facebook-project.gray.none {
+  margin-top: 0;
+}
+
+.container.facebook-project.white {
+  padding-top: 2rem;
+  width: 100%;
+}
+
+.container.white-background {
+  margin-top: 3rem;
+}
+
+.current.screens {
+  background:url("images/fb-img/bubble-background.png");
+}
+
+.digital-wf1 {
+  margin-top: 1rem;
+}
+
+.screens {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  width: 100%;
+}
+
+.new.screens {
+  background:url("images/fb-img/blue-background.png");
+}
+
+
+.facebook-header {
+  background: url("images/fb-img/fb-background-low-op.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25rem;
+  padding-bottom: 2rem;
+  width: 100%;
+}
+
+.facebook-title {
+  color: #3B5998;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  margin-top: 3rem;
+}
+
+.fb-list {
+  line-height: 1.8;
+  list-style-type: circle;
+}
+
+
+
 /* VICARIOUS */
 
 a.case-study-links.white {
@@ -513,6 +602,7 @@ a.case-study-links.white {
 
 .digital-wf {
   border: solid 1px #D8D8D8;
+  margin-top: 1rem;
 }
 
 .frames {
