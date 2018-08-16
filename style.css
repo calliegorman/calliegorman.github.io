@@ -630,7 +630,13 @@ a.case-study-links.white {
 }
 
 .img-responsive.header-image {
+  border-radius: 15px;
   margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.img-responsive.header-image.iphone {
+  margin-top: 4rem;
 }
 
 .intro, .logo, .pp {
@@ -729,7 +735,7 @@ a.case-study-links.white {
   margin-bottom: 2rem;
 }
 
-.vicarious-header.col-lg-10.col-md-10.col-sm-10 {
+.vicarious-header{
   background: linear-gradient(to right,#FFFFFF, #E0DEDE);
   background-position: top;
   background-repeat: no-repeat;
