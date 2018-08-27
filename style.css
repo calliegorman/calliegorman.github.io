@@ -303,7 +303,9 @@ a.case-study-links:hover {
     font-weight: bold;
 }
 
-.container.connected-project.white {
+.container.connected-project{
+  margin-bottom: 3rem;
+  margin-top: 3rem;
   padding-top: 2rem;
   width: 100%;
 }
@@ -321,8 +323,8 @@ a.case-study-links:hover {
 .container.connected-project.gray {
   background-color: #EFEFEF;
   margin-top: 3rem;
-  padding-bottom: 2rem;
-  padding-top: 2rem;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
   width: 100%;
 }
 
@@ -578,13 +580,8 @@ a.case-study-links.white {
 
 .container.vicarious {
   margin-top: 4rem;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
   width: 100%;
-}
-
-.container.vicarious.roles {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
 }
 
 .container.vicarious.grayscale {
@@ -685,19 +682,10 @@ a.case-study-links.white {
   color: #31BDCB;
 }
 
-.problem-solution {
-  background-image: url("images/vicarious-img/airplane.png");
-  background-position: top;
-}
 
-.problem-solution-box {
-  align-self: center;
-  background-color: #FFFFFF;
-  border-radius: 15px;
-  height: auto;
-  margin-bottom: 3rem;
-  margin-top: 3rem;
-  padding: 1.5rem;
+.problem-solution {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .problem-solution-header {
