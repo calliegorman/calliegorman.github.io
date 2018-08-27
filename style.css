@@ -287,10 +287,8 @@ a.case-study-links:hover {
 }
 
 .titles {
-  color: #989898;
-  font-weight: 400;
-  padding-top: 2rem;
-  border-top: solid 1px gray
+  font-size: 3rem;
+  font-weight: 900;
 }
 
 
@@ -564,9 +562,9 @@ a.case-study-links.white {
 }
 
 .competition-statement {
-  background-color: #F8F8F8;
   font-weight: 700;
-  padding: 2rem 2rem;
+  line-height: 1.8;
+  padding: 1rem 1rem;
   width: 100%;
 }
 
@@ -574,13 +572,19 @@ a.case-study-links.white {
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
-  margin-top: 3rem;
+  margin-top: 1rem;
   width: 100%;
 }
 
 .container.vicarious {
-  margin-top: 3rem;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
   width: 100%;
+}
+
+.container.vicarious.roles {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .container.vicarious.grayscale {
@@ -591,7 +595,7 @@ a.case-study-links.white {
     width: 100%;
 }
 
-.container.vicarious.user-conclusion {
+.container.user-conclusion {
   background-image: url("images/vicarious-img/reine.png");
   background-position: center;
 }
@@ -636,7 +640,7 @@ a.case-study-links.white {
 }
 
 .img-responsive.header-image.iphone {
-  margin-top: 4rem;
+  margin-top: 7rem;
 }
 
 .intro, .logo, .pp {
@@ -654,7 +658,6 @@ a.case-study-links.white {
 
 .image-text {
   color: #FFFFFF;
-  font-family: "Raleway", sans-serif;
 }
 
 .image-text.top {
@@ -695,15 +698,10 @@ a.case-study-links.white {
   margin-bottom: 3rem;
   margin-top: 3rem;
   padding: 1.5rem;
-  opacity: .7;
 }
 
 .problem-solution-header {
   font-weight: 700;
-  opacity: 1;
-}
-
-.problem-solution-text {
   opacity: 1;
 }
 
