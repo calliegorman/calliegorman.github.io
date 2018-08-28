@@ -415,8 +415,8 @@ p.last-paragraph {
 .container.facebook-project.gray {
   background-color: #EFEFEF;
   margin-top: 3rem;
-  padding-bottom: 2rem;
-  padding-top: 2rem;
+  padding-bottom: 4rem;
+  padding-top: 4rem;
   width: 100%;
 }
 
@@ -425,6 +425,8 @@ p.last-paragraph {
 }
 
 .container.facebook-project.white {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   padding-top: 2rem;
   width: 100%;
 }
@@ -453,6 +455,16 @@ p.last-paragraph {
 
 .new.screens {
   background:url("images/fb-img/blue-background.png");
+}
+
+.problem-solution {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.mockups {
+  padding-bottom: 2rem;
 }
 
 
