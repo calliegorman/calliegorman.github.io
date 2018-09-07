@@ -29,6 +29,7 @@ body {
   text-decoration: none;
 }
 
+}
 h2, h3, h4 {
   font-weight: bolder;
   line-height: normal;
@@ -133,8 +134,14 @@ footer.container.footer {
 
 /* HOMEPAGE */
 
+.btn.btn-link.hero-button {
+  margin-top: .5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
 .connected {
-background: url("images/connected-1.png");
+background: url("images/connected-grid.png");
 background-position: left;
 background-repeat: no-repeat;
 background-size: cover;
@@ -171,6 +178,10 @@ padding: 2rem 2rem;
   width: 100%;
 }
 
+.glyphicon.glyphicon-map-marker {
+  padding-top: 10rem;
+}
+
 .row.location {
   font-size: .7rem;
   opacity: .7;
@@ -178,7 +189,7 @@ padding: 2rem 2rem;
 }
 
 .hero {
-  background: url("images/hero-image-3.png");
+  background: url("images/new-hero.png");
   background-position: top right;
   min-height: 40rem;
 }
@@ -186,7 +197,8 @@ padding: 2rem 2rem;
 .hi {
   font-family: "Raleway", serif;
   font-size: 3.5rem;
-  margin-top: 7rem;
+  font-weight: 900;
+  margin-top: 10rem;
 }
 
 .homepage {
@@ -196,6 +208,10 @@ padding: 2rem 2rem;
 .homepage-header {
   font-family: "Raleway", serif;
   font-weight: bold;
+}
+
+.light {
+  opacity: .8;
 }
 
 row.home {
@@ -215,7 +231,7 @@ row.home {
 }
 
 .vicarious-homepage {
-background: url("images/vicarious-img/airplane.png");
+background: url("images/vicarious-grid.png");
 background-position: top left;
 background-repeat: no-repeat;
 background-size: cover;
@@ -682,6 +698,7 @@ a.case-study-links.white {
   padding-bottom: 1rem;
 }
 
+
 .percent.user {
   color: #FF6E5F;
   font-size: 1.2rem;
@@ -698,6 +715,10 @@ a.case-study-links.white {
 .problem-solution {
   margin-top: 4rem;
   margin-bottom: 4rem;
+}
+
+.problem-solution-box {
+  margin-top: 2rem;
 }
 
 .problem-solution-header {
