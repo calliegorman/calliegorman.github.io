@@ -156,11 +156,13 @@ footer.container.footer {
   width: 100%;
 }
 
-@media only screen and (max-width: 768px) {
-  .container.projects {
-    margin-left: .5rem;
+@media only screen and (max-width: 500px) {
+  .container.projects, .experience-with {
+    text-align: center;
+
   }
 }
+
 
 .description-text {
   margin-top: 4rem;
@@ -256,6 +258,7 @@ hr {
   margin-top: 1rem;
   width: auto;
 }
+
 
 /* ABOUT PAGE */
 
