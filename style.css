@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: lighter;
   margin: 0;
@@ -20,6 +20,7 @@ body {
   background-color: #F5D284;
   border-radius: 10px;
   color: black;
+  font-family: "Montserrat", serif;
   font-weight: bold;
   margin-bottom: 1rem;
   margin-top: 1rem;
@@ -74,6 +75,10 @@ h5 {
   margin-top: 1.5rem;
 }
 
+.nav {
+  font-family: "Montserrat", serif;
+}
+
 .navbar-nav>li>a {
   padding-bottom: 0;
   margin-bottom: 1rem;
@@ -126,6 +131,8 @@ footer.container.footer {
 }
 
 .footer-text {
+  color: gray;
+  font-family: "Montserrat", serif;
   font-size: .7rem;
 }
 
@@ -177,6 +184,7 @@ footer.container.footer {
 
 .experience-title {
   color: #000000;
+  font-family: "Montserrat", serif;
   font-weight: 700;
 }
 
@@ -206,6 +214,7 @@ footer.container.footer {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+  font-family: "Montserrat", serif;
   min-height: 40rem;
 }
 
@@ -217,7 +226,7 @@ footer.container.footer {
 }
 
 .homepage-header {
-  font-family: "Raleway", serif;
+  font-family: "Montserrat", serif;
   font-weight: 900;
 }
 
@@ -321,6 +330,7 @@ a.case-study-links:hover {
 }
 
 .titles {
+  font-family: "Montserrat", serif;
   font-size: 3rem;
   font-weight: 900;
 }
@@ -533,6 +543,11 @@ a.case-study-links.white {
   font-weight: 900;
 }
 
+.all-content {
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
 .branding-conclusion {
   background-image: url("images/vicarious-img/plane.png");
   background-position: center;
@@ -587,12 +602,11 @@ a.case-study-links.white {
 }
 
 .col-lg-2.arrow {
-  padding-top: 12rem;
+  padding-top: 10rem;
 }
 
 .col-xs-12.arrow {
   padding-top: 2rem;
-  padding-bottom: 2rem;
 }
 
 .color-box.four {
@@ -612,7 +626,6 @@ a.case-study-links.white {
 .competition-statement {
   font-weight: 700;
   line-height: 1.8;
-  padding: 1rem 1rem;
   width: 100%;
 }
 
@@ -659,8 +672,13 @@ a.case-study-links.white {
   padding: 0;
 }
 
+h2.standout {
+  font-family: "Montserrat", serif;
+}
+
 .img-responsive.competition {
   margin-bottom: 2rem;
+  margin-left: -2rem;
 }
 
 .img-responsive.no-border {
@@ -716,6 +734,9 @@ a.case-study-links.white {
   padding-bottom: 1rem;
 }
 
+.img-responsive.vicarious.mindmap {
+  margin-top: 2rem;
+}
 
 .percent.user {
   color: #FF6E5F;
@@ -740,12 +761,9 @@ a.case-study-links.white {
 }
 
 .problem-solution-header {
+  font-family: "Montserrat", serif;
   font-weight: 700;
   opacity: 1;
-}
-
-.row.blue {
-  padding-bottom: 2rem;
 }
 
 .separator-vicarious {
@@ -759,11 +777,15 @@ a.case-study-links.white {
 }
 
 .sub-header {
-  font-size: 1.2rem;
+  margin-bottom: 2rem;
 }
 
 .standout {
   font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+.standout.roles {
+  font-family: "Montserrat", serif;
 }
 
 .vicarious-captions {
@@ -782,6 +804,7 @@ a.case-study-links.white {
 }
 
 .vicarious-title {
+  font-family: "Montserrat", serif;
   font-size: 2.8rem;
   font-weight: bold;
 }
