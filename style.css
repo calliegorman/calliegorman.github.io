@@ -484,6 +484,10 @@ p.last-paragraph {
   width: 100%;
 }
 
+.container.facebook-project {
+  width: 100%;
+}
+
 .container.white-background {
   margin-top: 3rem;
 }
