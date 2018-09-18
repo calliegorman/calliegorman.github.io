@@ -148,11 +148,29 @@ footer.container.footer {
 
 /* HOMEPAGE */
 
+.btn.btn-link {
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
 .btn.btn-link.hero-button, .btn.btn-link.contact {
-  margin-top: .5rem;
   padding-left: 3rem;
   padding-right: 3rem;
 }
+
+@media only screen and (max-width: 500px) {
+  .btn.btn-link.hero-button {
+    margin-left: 3.5rem;
+  }
+}
+
+.btn.btn-link.contact {
+  margin-top: .5rem;
+}
+
+.btn.btn-link.hero-button {
+  margin-top: 2rem;
+}
+
 
 .connected-project-image {
     border-radius: 15px;
@@ -169,9 +187,8 @@ footer.container.footer {
 }
 
 @media only screen and (max-width: 500px) {
-  .container.projects, .experience-with {
+  .container.projects, .experience-with, .hi {
     text-align: center;
-
   }
 }
 
@@ -215,18 +232,20 @@ footer.container.footer {
 
 
 .hero {
-  background: url("images/pulpit-rock.png");
+  background: url("images/yellow-block.png");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
   font-family: "Montserrat", serif;
-  min-height: 40rem;
+  height: 100vh;
+  width: 100%;
 }
 
 .hi {
-  font-family: "Raleway", serif;
-  font-size: 3.5rem;
-  font-weight: 900;
+  color: #4A4A4A;
+  font-size: 3rem;
+  font-weight: 700;
   margin-top: 10rem;
 }
 
@@ -236,15 +255,48 @@ footer.container.footer {
 }
 
 hr {
-  margin-top: 4rem;
-  margin-bottom: 4rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 @media only screen and (max-width: 768px) {
   hr {
     margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 0rem;
   }
+}
+
+.my-intro h3 {
+  color: black;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid black; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .03em; /* Adjust as needed */
+  animation:
+    typing 2.5s steps(50, end),
+    blink-caret 1s step-end infinite;
+}
+
+.my-intro {
+  display: inline-flex;
+}
+
+@media only screen and (max-width: 768px) {
+  .my-intro h3 {
+    font-size: 1.1rem;
+  }
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #F5D284; }
 }
 
 .row.location {
@@ -254,9 +306,6 @@ hr {
 }
 
 .say-hi {
-  background: url("images/footer-img.png");
-  background-position: bottom right;
-  color: #FFFFFF;
   padding-bottom: 4rem;
   padding-top: 4rem;
 }
