@@ -617,7 +617,7 @@ a.case-study-links.white {
 
 .btn.btn-link.vicarious {
   background-color: #FF6E5F;
-  border-radius: 20px;
+  border-radius: 10px;
   color: black;
   font-weight: normal;
   padding:.5rem 2rem .5rem 2rem;
@@ -631,7 +631,7 @@ a.case-study-links.white {
 
 .btn.btn-link.vicarious.landing {
   background-color: #77E2F1;
-  border-radius: 20px;
+  border-radius: 10px;
   color: black;
   font-weight: normal;
   padding:.5rem 2rem .5rem 2rem;
