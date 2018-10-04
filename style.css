@@ -335,10 +335,6 @@ hr {
   50% { border-color: #F5D284; }
 }
 
-/*.project-section {
-  height: 100vh;
-}
-*/
 .row.location {
   font-size: .7rem;
   opacity: .7;
@@ -457,6 +453,15 @@ h2.standout {
 
 
 /* CONNECTED */
+
+.btn.btn-link.connected {
+  background-color: #F5D284;
+}
+
+.btn.btn-link.connected:hover {
+  background-color: #FCCD66;
+}
+
 
 .connected-shape {
   transform: scale(.4,.4);
