@@ -462,26 +462,28 @@ h2.standout {
   background-color: #FCCD66;
 }
 
+.case-study-links.connected {
+  color: #F5B342;
+}
+
+.connected-image {
+  margin-bottom: 2rem;
+}
 
 .connected-shape {
   transform: scale(.4,.4);
 }
 
-.connected-title {
-    font-size: 2.8rem;
-    font-weight: bold;
-}
-
-
 .container.connected-project{
   margin-bottom: 3rem;
-  margin-top: 2rem;
-  padding-top: 2rem;
+  margin-top: 3rem;
+  height: auto;
   width: 100%;
 }
 
 .container.connected-project.competitive-conclusion {
   background: url("images/dots.png");
+  background-attachment: fixed;
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -508,6 +510,11 @@ h2.standout {
 
 .gray-text {
   opacity: .8;
+}
+
+
+h2.standout.connected {
+  color: #F5B342;
 }
 
 .header {
@@ -539,12 +546,18 @@ img.img-responsive.high-fidelity {
   color: #F5BF46;
 }
 
+.numbers.connected {
+  color: #F5B342;
+  margin-top: 0;
+}
+
+
 p.last-paragraph {
   margin-bottom: 2rem;
 }
 
 .percent {
-  color: #4F7D67;
+  color: #F5B342;
   font-size: 1.8rem;
   font-weight: bold;
 }
