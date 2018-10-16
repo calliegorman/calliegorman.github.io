@@ -187,8 +187,8 @@ footer.container.footer {
 }
 
 
-.connected-project-image {
-    border-radius: 15px;
+.project-image {
+    border-radius: 0px;
     box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
     height: auto;
     width: 100%;
@@ -291,7 +291,7 @@ footer.container.footer {
 
 hr {
   border-top: 1px solid #FFF;
-  margin-top: 8rem;
+  margin-top: 5rem;
   margin-bottom: 5rem;
 }
 
@@ -634,6 +634,10 @@ p.last-paragraph {
   margin-top: 1rem;
 }
 
+.facebook-project.problem-solution {
+  margin-bottom: 0;
+}
+
 .screens {
   background-position: center;
   background-repeat: no-repeat;
@@ -898,6 +902,10 @@ h3.standout {
 .numbers.vicarious {
   color: #FF6E5F;
   margin-top: 0;
+}
+
+.opening {
+  margin-top: 2rem;
 }
 
 .percent.user {
